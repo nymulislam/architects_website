@@ -24,21 +24,20 @@ body{
     font-size: 1rem;
     font-weight: 400;
 }
-
+.section_title{
+    color:#131313;
+    font-size: 3rem;
+    font-weight: 700;
+}
 /* header section style */
 header{
     background: rgba(255, 144, 14, 0.10);
-    padding: 25px 150px;
+    padding: 25px 135px;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-nav h2{
-    color:#131313;
-    font-size: 3rem;
-    font-weight: 700;
 }
 nav > ul{
     display: flex;
@@ -67,34 +66,41 @@ nav a{
     margin: 35px auto;
 }
 
+/* main style */
+main, footer{
+    max-width: 992px;
+    margin: 50px auto;
+}
+
 /* team section style */
-.quick_container{
+.teams_container{
     display: flex;
     align-items: center;
-    margin-top: 60px;
+    padding: 60px;
     gap: 20px;
 }
 
 .img_collage{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    gap: 1rem;
+    margin-right: 30px;
 }
 
-.feature_description h2{
+.teams_description h2{
     color:#727272;
-    font-size: 45px;
+    font-size: 2.3rem;
     font-weight: 500;
 }
 
 .span1{
     color:#131313;
-    font-size: 45px;
+    font-size: 2.3rem;
     font-weight: 700;
 }
 .span2{
     color: #FF900E;
-    font-size: 45px;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
@@ -111,9 +117,13 @@ nav a{
 
 /* Some Facts Section style */
 .facts{
-    margin-top: 100px;
+    margin-top: 150px;
 }
-.overview_container{
+.facts > p {
+    text-align: left;
+    margin-right: 40%;
+}
+.facts_container{
     display: flex;
     justify-content: space-evenly;
 }
@@ -123,15 +133,22 @@ nav a{
     border-radius: 5px;
     border: 1px solid #FF900E;
     padding: 10px;
-    margin: 150px 0;
+    margin: 45px 0;
 }
 
 /* sponsors section style */
 .sponsors_container{
     display: flex;
     justify-content: space-evenly;
-    margin: 100px;
+    align-items: center;
 }
+.sponsors_container img{
+    width: 13%;
+    margin: 30px 0 60px 0;
+}
+.sponsors h2, p {
+    text-align: center;
+} 
 
 /* footer section style */
 footer p{
