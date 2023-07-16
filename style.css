@@ -1,81 +1,70 @@
+/* Work Sens Font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;700;800&display=swap');
+
 /* common shared style */
 body{
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 .primary_button{
     border-radius: 5px;
     background: #FF900E;
     color: #FFF;
     text-align: center;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 700;
     padding: 10px;
     border: 0;
     cursor: pointer;
 }
-
 .text_gray{
     color:#727272;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 400;
 }
+
 /* header section style */
 header{
     background: rgba(255, 144, 14, 0.10);
-    margin: 0 ;
+    padding: 25px 150px;
 }
-
-.nav_container{
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-
-.title{
+nav h2{
     color:#131313;
-    text-align: center;
-    font-size: 25px;
+    font-size: 3rem;
     font-weight: 700;
 }
-
-ul{
+nav > ul{
     display: flex;
-    gap: 50px;
+    gap: 40px;
 }
-
-ul a, li{
-    text-decoration: none;
+nav li {
     list-style: none;
-    color: #424242;
-    text-align: center;
-    font-size: 18px;
+}
+nav a{
+    text-decoration: none;
+    color:#424242;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
-.main_title{
-    margin: 0 20%;
+/* banner section style */
+.banner_title{
     text-align: center;
-}
-
-.main_title h1{
-    color: #131313;
-    text-align: center;
-    font-size: 74px;
+    color:#131313;
+    font-size: 2.5rem;
     font-weight: 700;
+    margin-top: 150px;
 }
-
-.banner_img{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-.header_img{
-    width: 60%;
-    margin-bottom: 40px;
+.banner_img img{
+    width: 100%;
+    margin: 35px auto;
 }
 
 /* team section style */
