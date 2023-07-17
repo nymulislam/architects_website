@@ -49,7 +49,7 @@ nav li {
 nav a{
     text-decoration: none;
     color:#424242;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
 }
 
@@ -105,14 +105,55 @@ main, footer{
 }
 
 /* feature section style */
-.details_feature{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    border: 2px solid red;
+.feature_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rebeccapurple;
 }
-.details_feature_img img{
-    width: 100%;
-
+.feature_description{
+    margin-right: 10%;
+}
+.feature_description .section_title{
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+}
+.feature p{
+    text-align: left;
+}
+.sub_feature{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 10px 25px;
+    margin-top: 20px;
+}
+.feature_img img{
+    width: 508px;
+    height: 992px;
+    margin-left: 50px;
+}
+.experience{
+    width: 165px;
+    height: 80px;
+    border-radius: 5px;
+    color: #FFF;
+    background: #FF900E;
+    padding: 30px 20px;
+    position: relative;
+    bottom: 100px;
+}
+.experience h1{
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.experience p {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 /* Some Facts Section style */
@@ -132,7 +173,7 @@ main, footer{
     text-align: center;
     border-radius: 5px;
     border: 1px solid #FF900E;
-    padding: 10px;
+    padding: 20px 10px;
     margin: 45px 0;
 }
 
